@@ -4,3 +4,9 @@
 ![Gemini AI](https://img.shields.io/badge/AI-Google%20Gemini-4285F4?style=flat-square&logo=google&logoColor=white)
 - Secure AI Assistant with Full Observability.
 - A secure, monitored LLM application powered by **Google Gemini** and observed by **Datadog**.
+
+---
+## 📖 Overview
+
+**SentinelVoice** is a proof-of-concept for a *Secure AI Pipeline*. In an era where "Jailbreaking" LLMs is a major risk, SentinelVoice implements a defense-in-depth strategy:
+1. **Ap**
