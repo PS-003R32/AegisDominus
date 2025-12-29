@@ -2,3 +2,4 @@ flask
 ddtrace
 python-dotenv
 requests
+google-cloud-aiplatform #its easier if you download the cli exe file.
