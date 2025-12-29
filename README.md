@@ -8,7 +8,7 @@
 ---
 ## Overview
 
-**SentinelVoice** is a proof-of-concept for a *Secure AI Pipeline*. In an era where "Jailbreaking" LLMs is a major risk, SentinelVoice implements a defense-in-depth strategy:
+**AegisDominus** is a proof-of-concept for a *Secure AI Pipeline*. In an era where "Jailbreaking" LLMs is a major risk, AegisDominus implements a defense-in-depth strategy:
 
 1.  **Application Layer:** Real-time input validation to block prompt injection attacks.
 2.  **Observability Layer:** A Datadog dashboard that tracks token usage, latency, and security incidents.
