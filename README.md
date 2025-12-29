@@ -57,7 +57,8 @@ export DD_SERVICE="aegis-dominus"
 ```
 
 ### Step 4: Run the Application
-Start the server using the Datadog Tracer wrapper to enable observability.
+Start the server using the Datadog Tracer wrapper to enable observability.<br>
+**[NOTE: I have used python venv to run this project. YOu may proceed without setting it up.]**
 ```bash
 ddtrace-run python src/app.py
 ```
@@ -66,4 +67,13 @@ To demonstrate the security features, run the included traffic generator. This s
 ```bash
 python traffic_generator.py
 ```
+
+## Dashboard & Observability
+The AegisDominus Command Center (Datadog Dashboard) visualizes the system's health and security status with 5 key widgets:
+**[NOTE: You can find and download the datadog dashboard jason file in this repository to make it easier.]**
+1. **Total Tokens Generated**: Tracks AI consumption costs (Query Value).
+2. **Security Incidents**: A real-time graph that spikes RED when http.status_code:403 (Blocked Attacks) occur.
+3. **Traffic Volume**: Monitors the heartbeat of total requests hitting the system.
+4. **Security Rules**: A "Monitor Summary" list that instantly flips from OK (Green) to ALERT (Red) during an attack.
+5. **SLO Reliability**: A live badge tracking our 99% uptime target over a 7-day window.
 
