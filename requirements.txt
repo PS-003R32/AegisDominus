@@ -1,0 +1,4 @@
+flask
+ddtrace
+python-dotenv
+requests
