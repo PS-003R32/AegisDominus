@@ -83,11 +83,11 @@ The AegisDominus Command Center (Datadog Dashboard) visualizes the system's heal
 [Once you setup the simulation you will recieve email `alerts` sent automatically through `Datadog`]<br>
 
 ### Terminal view
-<img width="42%" alt="twin" src="https://github.com/user-attachments/assets/e5e8e144-0699-4b80-b062-970dd9cd5310" />
+<img width="80%" alt="twin" src="https://github.com/user-attachments/assets/e5e8e144-0699-4b80-b062-970dd9cd5310" /><br>
 ### Live Datadog Dashboard
-<img width="40%" alt="dd-dash1" src="https://github.com/user-attachments/assets/a9030cf0-b361-4bf5-a79f-12403626971f" />
+<img width="78%" alt="dd-dash1" src="https://github.com/user-attachments/assets/a9030cf0-b361-4bf5-a79f-12403626971f" /><br>
 ### Email Alerts
-<img src="https://github.com/user-attachments/assets/9f4d1f4a-4caf-4c3e-8d66-c56ddf5de0f1" alt="email-resp" width="40%" />
+<img src="https://github.com/user-attachments/assets/9f4d1f4a-4caf-4c3e-8d66-c56ddf5de0f1" alt="email-resp" width="78%" /><br>
 
 ---
 ## LICENSE
