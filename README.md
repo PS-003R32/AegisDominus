@@ -1,4 +1,4 @@
-# AegisDominus: Secure AI Defense System
+# AegisDominus: Secure AI Assistant with Full Observability
 
 ![Datadog Monitored](https://img.shields.io/badge/Observability-Datadog-632CA6?style=flat-square&logo=datadog&logoColor=white)
 ![Python](https://img.shields.io/badge/Backend-Flask-blue?style=flat-square&logo=python&logoColor=white)
@@ -12,7 +12,9 @@
 1.  **Active Defense:** Automatically detects and blocks "Jailbreak" attempts (e.g., prompt injection attacks) before they process.
 2.  **Deep Observability:** Uses Datadog APM to trace every interaction, measuring token consumption, latency, and error rates per user.
 3.  **Reliability Engineering:** Implements Service Level Objectives (SLOs) to guarantee 99% system uptime and performance.
-4.  **Datadog Email:** Automated email pushed to your email id.
+4.  **Email:** Automated alert email pushed to your email id.
+
+<img width="1916" height="1102" alt="dd-dash2-dynamic" src="https://github.com/user-attachments/assets/5bf35082-cbf2-45d8-bd6e-dcc2b342fc5f" />
 
 ## How it works
 
@@ -76,9 +78,14 @@ The AegisDominus Command Center (Datadog Dashboard) visualizes the system's heal
 2. **Security Incidents**: A real-time graph that spikes RED when http.status_code:403 (Blocked Attacks) occur.
 3. **Traffic Volume**: Monitors the heartbeat of total requests hitting the system.
 4. **Security Rules**: A "Monitor Summary" list that instantly flips from OK (Green) to ALERT (Red) during an attack.
-5. **SLO Reliability**: A live badge tracking our 99% uptime target over a 7-day window.
+5. **SLO Reliability**: A live badge tracking our 99% uptime target over a 7-day window.<br>
 
-[Once you setup the simulation you will recieve email `alerts` sent automatically through `Datadog`]
+[Once you setup the simulation you will recieve email `alerts` sent automatically through `Datadog`]<br>
+
+<img width="1916" height="1142" alt="twin" src="https://github.com/user-attachments/assets/e5e8e144-0699-4b80-b062-970dd9cd5310" />
+<img width="1918" height="1146" alt="dd-dash1" src="https://github.com/user-attachments/assets/a9030cf0-b361-4bf5-a79f-12403626971f" />
+<img width="1918" height="1093" alt="email-1hr" src="https://github.com/user-attachments/assets/9f4d1f4a-4caf-4c3e-8d66-c56ddf5de0f1" />
+
 
 ---
 ## LICENSE
