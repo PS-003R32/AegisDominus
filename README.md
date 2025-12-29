@@ -12,6 +12,7 @@
 1.  **Active Defense:** Automatically detects and blocks "Jailbreak" attempts (e.g., prompt injection attacks) before they process.
 2.  **Deep Observability:** Uses Datadog APM to trace every interaction, measuring token consumption, latency, and error rates per user.
 3.  **Reliability Engineering:** Implements Service Level Objectives (SLOs) to guarantee 99% system uptime and performance.
+4.  **Datadog Email:** Automated email pushed to your email id.
 
 ## How it works
 
@@ -40,7 +41,7 @@ pip install -r requirements.txt
 ### Step 2: Google Cloud Authentication
 Authenticate using your local Google credentials to access the Gemini model:
 ```bash
-# Login to Google Cloud
+# Login to Google Cloud via gcloud CLI
 gcloud auth application-default login
 
 # Set your Project ID (Required for Vertex AI)
@@ -52,8 +53,8 @@ Export your Datadog credentials directly in the terminal:
 ```bash
 export DD_API_KEY="your_datadog_api_key_here"
 export DD_SITE="us5.datadoghq.com"  # Check your account (e.g., datadoghq.com)
-export DD_ENV="devpost-demo"
-export DD_SERVICE="aegis-dominus"
+export DD_ENV="devpost-demo" # optional
+export DD_SERVICE="aegis-dominus" # optional
 ```
 
 ### Step 4: Run the Application
@@ -67,7 +68,7 @@ To demonstrate the security features, run the included traffic generator. This s
 ```bash
 python traffic_generator.py
 ```
-
+---
 ## Dashboard & Observability
 The AegisDominus Command Center (Datadog Dashboard) visualizes the system's health and security status with 5 key widgets:
 **[NOTE: You can find and download the datadog dashboard jason file in this repository to make it easier.]**
@@ -77,3 +78,8 @@ The AegisDominus Command Center (Datadog Dashboard) visualizes the system's heal
 4. **Security Rules**: A "Monitor Summary" list that instantly flips from OK (Green) to ALERT (Red) during an attack.
 5. **SLO Reliability**: A live badge tracking our 99% uptime target over a 7-day window.
 
+[Once you setup the simulation you will recieve email `alerts` sent automatically through `Datadog`]
+
+---
+## LICENSE
+This project is licensed under the MIT License – see the [LICENSE](LICENSE) file for details.
