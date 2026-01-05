@@ -6,7 +6,7 @@
 
 ## Overview
 
-**AegisDominus** is a security-first AI proxy designed to protect Large Language Models (LLMs) from malicious misuse. It sits between the user and **Google Gemini**, providing real-time threat detection and granular observability that standard API calls lack.
+**AegisDominus** is a security-first AI proxy designed to protect Large Language Models (LLMs) from malicious misuse. It sits between the user and **Google Gemini**, providing real-time threat detection and granular observability that standard API calls lack. Watch the [video here](https://youtu.be/g04Hsjy2f9Y)
 
 **Key Capabilities:**
 1.  **Active Defense:** Automatically detects and blocks "Jailbreak" attempts (e.g., prompt injection attacks) before they process.
